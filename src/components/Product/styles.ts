@@ -11,6 +11,11 @@ export const Card = styled.div`
   ${TagContaier} {
     margin-right: 8px;
   }
+
+  img {
+    width: 225px;
+    height: 250px;
+  }
 `
 
 export const TituloCard = styled.h3`

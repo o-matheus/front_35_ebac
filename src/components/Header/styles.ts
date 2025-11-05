@@ -4,6 +4,7 @@ import { cores } from '../../styles/styles'
 export const HeaderBar = styled.header`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: ${cores.fundoMenuHeader};
   padding: 24px;
   border-radius: 16px;
@@ -16,6 +17,10 @@ export const HeaderBar = styled.header`
   div {
     display: flex;
     align-items: center;
+  }
+
+  img {
+    margin-top: 3px;
   }
 `
 
