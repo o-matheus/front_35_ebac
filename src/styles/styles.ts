@@ -9,7 +9,11 @@ export const cores = {
   textoPrimaria: '#EEE',
 
   // MenuHeader
-  fundoMenuHeader: '#333'
+  fundoMenuHeader: '#333',
+
+  // Footer
+  corTituloFooter: '#fff',
+  corLinkFooter: '#a3a3a3'
 }
 
 export const GlobalCSS = createGlobalStyle`
